@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oh No! Error 404!</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500i,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Fontawesome/css/all.min.css">
+    <link rel="icon" href="favicon.png" type="image/png"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="lost">
+<header class="orange">
+    <div class="menu">
+        <a href="index.html">
+        <img src="immagini/logob.png" width="200" height="80" alt="sito_ilbauscialternativo" title="sito_ilbauscialternativo"></a>
+        
+     <!--inizia il menù slide down from the top-->
+     <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <input type="text" placeholder="Cerca..."><i class="fas fa-search" type="submit"></i>
+          <a href="blog.html" target="blank"><span class="fas fa-newspaper"> </span> Blog</a>
+          <a href="chisiamo.html" target="blank"><span class="fab fa-reddit-alien"></span> Chi siamo</a>
+          <a href="login.html" target="blank"><span class="far fa-user"></span> Accedi</a>
+        </div>
+      </div>
+      <span style="font-size:30px;cursor:pointer; color:white;;padding:5px 10px;border-radius:5px;" onclick="openNav()">&#9776</span><!--background-color: orange-->
+      <script>
+      function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+      }
+      function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+      }
+      </script>
+    </div>
+    </header>
+        <div class="fantasma">
+            <h2>Oh No!!</h2>
+            <h3> Error 404 <br>Pagina non trovata!</h3>
+            <img src="immagini/taken.svg" alt="404">
+        </div>
+        <div class="ritorno">
+            <a href="index.html"><button>Ritorniamo dal Bauscia!</button></a>
+        </div>
+</body>
+</html>
