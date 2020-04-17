@@ -301,6 +301,17 @@ footer .fab:hover {
   font-size: 14px;
 }
 
+/* PAGINA 404 */
+
+.errore{
+  margin-top: 90px;
+}
+
+.fantasma{
+  margin-top: 200px;
+  font-size: 22px;
+}
+
 /* GRID AREAS RESPONSIVE */
 
 /* definisco le grid areas */
